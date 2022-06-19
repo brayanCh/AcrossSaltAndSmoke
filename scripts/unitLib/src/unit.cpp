@@ -2,6 +2,11 @@
 
 void Unit::_register_methods()
 {
+    godot::register_method("_ready", &Unit::_ready);
+    godot::register_method("_process", &Unit::_process);
+
+    godot::register_property("speed", &Unit::speed, 400);
+    godot::register_property("isSelected", &Unit::isSelected, false);
 }
 
 void Unit::_init()
