@@ -6,7 +6,7 @@
 
 class Unit : public godot::Area2D {
 
-    GODOT_CLASS(Unit, godot::Node2D);
+    GODOT_CLASS(Unit, godot::Area2D);
     int speed = 400;
 
     godot::AnimatedSprite *animatedSprite;
