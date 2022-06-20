@@ -1,4 +1,6 @@
 #include "unit.hpp"
+#include <iostream>
+
 
 void Unit::_register_methods()
 {
@@ -11,6 +13,7 @@ void Unit::_register_methods()
 
 void Unit::_init()
 {
+    std::cout << "this" << std::endl;
 }
 
 
