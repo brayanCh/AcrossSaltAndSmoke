@@ -1,4 +1,5 @@
-ends KinematicBody2D
+extends KinematicBody2D
+
 
 
 var selected : bool = false;
