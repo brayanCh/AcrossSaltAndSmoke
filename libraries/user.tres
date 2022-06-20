@@ -1,6 +1,0 @@
-[gd_resource type="GDNativeLibrary" format=2]
-
-[resource]
-singleton = true
-entry/X11.64 = "res://bin/x11/libunitScript.so"
-dependency/X11.64 = [  ]
